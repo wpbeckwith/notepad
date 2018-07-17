@@ -38,3 +38,4 @@ Create a new note:
 - `maven-failsafe-plugin` to run unit and integrations tests with `mvn verify`.
 - 1 simple unit test, 2 integrations tests (a api test to ensure that the JSON returned by the endpoint is correct) and a database test (saves a note and ensures that it was successfuly persisted in MySQL).
 - `maven-release-plugin` to release new application versions in GitHub.
+ 
