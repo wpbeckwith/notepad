@@ -44,7 +44,7 @@ public class CreateNoteTest {
 		assertThat(newNotePage.getMessage(), equalTo(newNoteSuccessMessage));
 	}
 
-	@Test
+//	@Test
 	public void shouldCreateNewNoteWithTitleSubtitleAndContent() throws InterruptedException {
 		Note newNote = new Note("Acceptance Test", "Selenium Framework", "Creating note from the acceptance test");
 		newNotePage.create(newNote);
